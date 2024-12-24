@@ -28,4 +28,4 @@ jobs:
           context: ../
           file: Dockerfile
           push: true
-          tags: VovanGod/shell:latest
+          tags: vovangod/linuxdocker:latest
