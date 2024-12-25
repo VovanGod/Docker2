@@ -2,7 +2,7 @@
 FROM gcc:latest as builder
 WORKDIR /app
 COPY app/main.c .
-RUN gcc -o main main.c -static
+RUN gcc main.c -o main
 RUN chmod +x /app/main
 
 
