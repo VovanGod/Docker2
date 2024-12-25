@@ -1,9 +1,8 @@
 # Stage 1
 FROM gcc:latest as builder
 WORKDIR /app
-COPY app/main.c .
+COPY app/main.c . 
 RUN gcc main.c -o main
-RUN chmod +x /app/main
 
 
 # Stage 2
