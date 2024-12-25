@@ -13,4 +13,4 @@ COPY --from=builder /app/main /app/main
 RUN apk add --no-cache bash
 CMD ["/app/main"]
 
-# Запускать через docker run -it --rm --privileged image_id
+# Запускать через docker run -it --rm --privileged image_id 
