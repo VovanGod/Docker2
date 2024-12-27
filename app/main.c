@@ -250,6 +250,7 @@ int main() {
                 printf("Variable not found: %s\n", var_name);
         }
         
+        
         else if (strncmp(input, "run ", 4) == 0) {
             char* command_to_run = input + 4;
             command_to_run[strcspn(command_to_run, "\n")] = 0;
